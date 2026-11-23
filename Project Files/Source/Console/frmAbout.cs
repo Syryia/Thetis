@@ -122,18 +122,18 @@ namespace Thetis
             }
 
             lstVersions.Items.Clear();
-            lstVersions.Items.Add("Version: " + version);
-            lstVersions.Items.Add("Database Version: " + db_version);
-            lstVersions.Items.Add("Radio Model: " + radio_model);
+            lstVersions.Items.Add("版本: " + version);
+            lstVersions.Items.Add("数据库版本: " + db_version);
+            lstVersions.Items.Add("电台型号: " + radio_model);
             if (!string.IsNullOrEmpty(andromeda_version)) lstVersions.Items.Add(andromeda_version); // includes the version: preamble in the string
-            lstVersions.Items.Add("Firmware Version: " + firmware_version);
+            lstVersions.Items.Add("固件版本: " + firmware_version);
             string support = !string.IsNullOrEmpty(supported_protocol) ? $" (v{supported_protocol})" : "";
-            lstVersions.Items.Add("Protocol: " + protocol + support);
-            lstVersions.Items.Add("WDSP Version: " + wdsp_version);
-            lstVersions.Items.Add("ChannelMaster: " + channel_master_version);
-            lstVersions.Items.Add("cmASIO Version: " + cmASIO_version);
-            lstVersions.Items.Add("PortAudio Version: " + portAudio_version);
-            if(!string.IsNullOrEmpty(firmware_version)) lstVersions.Items.Add("DirectX Version: " + dx_version);
+            lstVersions.Items.Add("协议: " + protocol + support);
+            lstVersions.Items.Add("WDSP版本: " + wdsp_version);
+            lstVersions.Items.Add("ChannelMaster版本: " + channel_master_version);
+            lstVersions.Items.Add("cmASIO版本: " + cmASIO_version);
+            lstVersions.Items.Add("PortAudio版本: " + portAudio_version);
+            if(!string.IsNullOrEmpty(firmware_version)) lstVersions.Items.Add("DirectX版本: " + dx_version);
         }
         private bool UpdateAvaialble
         {
