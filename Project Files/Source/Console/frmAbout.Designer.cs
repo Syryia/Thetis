@@ -55,6 +55,7 @@
             this.lstContributors.FormattingEnabled = true;
             this.lstContributors.ItemHeight = 16;
             this.lstContributors.Items.AddRange(new object[] {
+            "BI4KSR, Liu (Thetis的中文化工作)",
             "NR0V, Warren (WDSP & too many other contributions to list)",
             "G8NJJ, Laurence (G2, Andromeda & protocols)",
             "N1GP, Rick (Firmware related changes)",
@@ -78,7 +79,7 @@
             "W1AEX, Rob (skins & audio information)",
             "DH1KLM, Sigi (midi, skins & UI improvements)",
             "",
-            "and indirectly, all the testers"});
+            "以及所有间接参与的测试人员"});
             this.lstContributors.Location = new System.Drawing.Point(19, 267);
             this.lstContributors.Name = "lstContributors";
             this.lstContributors.SelectionMode = System.Windows.Forms.SelectionMode.None;
@@ -119,7 +120,7 @@
             this.lnkLicence.Size = new System.Drawing.Size(96, 16);
             this.lnkLicence.TabIndex = 5;
             this.lnkLicence.TabStop = true;
-            this.lnkLicence.Text = "License Terms";
+            this.lnkLicence.Text = "许可条例";
             this.lnkLicence.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkLicence_LinkClicked);
             // 
             // lstLinks
@@ -167,8 +168,8 @@
             this.btnReleaseNotes.Selectable = true;
             this.btnReleaseNotes.Size = new System.Drawing.Size(88, 41);
             this.btnReleaseNotes.TabIndex = 14;
-            this.btnReleaseNotes.Text = "Release\r\nNotes";
-            this.toolTip1.SetToolTip(this.btnReleaseNotes, "Show the release notes");
+            this.btnReleaseNotes.Text = "发行说明/\r\n更新日志";
+            this.toolTip1.SetToolTip(this.btnReleaseNotes, "显示发行说明");
             this.btnReleaseNotes.UseVisualStyleBackColor = false;
             this.btnReleaseNotes.Click += new System.EventHandler(this.btnReleaseNotes_Click);
             // 
@@ -195,10 +196,10 @@
             this.btnVisit.Location = new System.Drawing.Point(524, 78);
             this.btnVisit.Name = "btnVisit";
             this.btnVisit.Selectable = true;
-            this.btnVisit.Size = new System.Drawing.Size(88, 23);
+            this.btnVisit.Size = new System.Drawing.Size(88, 27);
             this.btnVisit.TabIndex = 10;
-            this.btnVisit.Text = "View";
-            this.toolTip1.SetToolTip(this.btnVisit, "Visit he selected link");
+            this.btnVisit.Text = "访问";
+            this.toolTip1.SetToolTip(this.btnVisit, "访问选中的链接");
             this.btnVisit.UseVisualStyleBackColor = false;
             this.btnVisit.Click += new System.EventHandler(this.btnVisit_Click);
             // 
@@ -210,10 +211,10 @@
             this.btnDXDiag.Location = new System.Drawing.Point(524, 325);
             this.btnDXDiag.Name = "btnDXDiag";
             this.btnDXDiag.Selectable = true;
-            this.btnDXDiag.Size = new System.Drawing.Size(88, 23);
+            this.btnDXDiag.Size = new System.Drawing.Size(88, 27);
             this.btnDXDiag.TabIndex = 8;
-            this.btnDXDiag.Text = "DxDiag";
-            this.toolTip1.SetToolTip(this.btnDXDiag, "Run dxDiag");
+            this.btnDXDiag.Text = "DirectX诊断";
+            this.toolTip1.SetToolTip(this.btnDXDiag, "运行DirectX诊断");
             this.btnDXDiag.UseVisualStyleBackColor = false;
             this.btnDXDiag.Click += new System.EventHandler(this.btnDXDiag_Click);
             // 
@@ -225,10 +226,10 @@
             this.btnSysInfo.Location = new System.Drawing.Point(524, 296);
             this.btnSysInfo.Name = "btnSysInfo";
             this.btnSysInfo.Selectable = true;
-            this.btnSysInfo.Size = new System.Drawing.Size(88, 23);
+            this.btnSysInfo.Size = new System.Drawing.Size(88, 27);
             this.btnSysInfo.TabIndex = 7;
-            this.btnSysInfo.Text = "System Info";
-            this.toolTip1.SetToolTip(this.btnSysInfo, "Show system info");
+            this.btnSysInfo.Text = "系统信息";
+            this.toolTip1.SetToolTip(this.btnSysInfo, "显示系统信息");
             this.btnSysInfo.UseVisualStyleBackColor = false;
             this.btnSysInfo.Click += new System.EventHandler(this.btnSysInfo_Click);
             // 
@@ -240,10 +241,10 @@
             this.btnCopyContributors.Location = new System.Drawing.Point(524, 267);
             this.btnCopyContributors.Name = "btnCopyContributors";
             this.btnCopyContributors.Selectable = true;
-            this.btnCopyContributors.Size = new System.Drawing.Size(88, 23);
+            this.btnCopyContributors.Size = new System.Drawing.Size(88, 27);
             this.btnCopyContributors.TabIndex = 6;
-            this.btnCopyContributors.Text = "Copy Info";
-            this.toolTip1.SetToolTip(this.btnCopyContributors, "Copy the version info to the clipboard");
+            this.btnCopyContributors.Text = "复制信息";
+            this.toolTip1.SetToolTip(this.btnCopyContributors, "将版本信息复制到剪贴板");
             this.btnCopyContributors.UseVisualStyleBackColor = false;
             this.btnCopyContributors.Click += new System.EventHandler(this.btnCopyContributors_Click);
             // 
@@ -266,7 +267,7 @@
             this.labelTS3.Name = "labelTS3";
             this.labelTS3.Size = new System.Drawing.Size(102, 16);
             this.labelTS3.TabIndex = 11;
-            this.labelTS3.Text = "Links / Manuals:";
+            this.labelTS3.Text = "相关链接/使用手册:";
             // 
             // labelTS2
             // 
@@ -277,7 +278,7 @@
             this.labelTS2.Name = "labelTS2";
             this.labelTS2.Size = new System.Drawing.Size(81, 16);
             this.labelTS2.TabIndex = 4;
-            this.labelTS2.Text = "Contributors:";
+            this.labelTS2.Text = "贡献者:";
             // 
             // btnOK
             // 
@@ -287,9 +288,9 @@
             this.btnOK.Location = new System.Drawing.Point(524, 499);
             this.btnOK.Name = "btnOK";
             this.btnOK.Selectable = true;
-            this.btnOK.Size = new System.Drawing.Size(88, 23);
+            this.btnOK.Size = new System.Drawing.Size(88, 27);
             this.btnOK.TabIndex = 2;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = "确认";
             this.btnOK.UseVisualStyleBackColor = false;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -331,7 +332,7 @@
             this.MinimizeBox = false;
             this.Name = "frmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About Thetis";
+            this.Text = "关于 Thetis";
             this.ResumeLayout(false);
             this.PerformLayout();
 
