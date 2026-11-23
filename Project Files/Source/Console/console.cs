@@ -48540,10 +48540,10 @@ namespace Thetis
             }
             else
             {
-                sFW = "? (not connected)";
-                sProto = "? (not connected)";
+                sFW = "? (未连接)";
+                sProto = "? (未连接)";
                 sSupportedProtocol = "";
-                sModel = HardwareSpecific.Model.ToString() + " (not connected)";
+                sModel = HardwareSpecific.Model.ToString() + " (未连接)";
             }
 
             string version = Common.GetVerNum(true, false);
