@@ -121,9 +121,8 @@
     <value>17, 17</value>
   </metadata>
   <data name="labelTS4.Text" xml:space="preserve">
-    <value>Thetis and related code is covered by the GNU General Public License (at least version 2) and uses code and libraries from other projects and/or sources.
-
-FlexRadio Systems, PortAudio (audio), SharpDX (directX), RawInput (input capture), ExCSS (stylesheets), FTD2XX (ftdi), Newtonsoft (json), SkiaSharp (image handling), Svg.
-The Thetis splash screen, install banners and icons have been AI generated.</value>
+    <value>Thetis及其相关代码遵循GNU通用公共许可证（GPL V2），并使用了来自其他项目和第三方来源的代码与库，包括：FlexRadio Systems、PortAudio（音频库）、SharpDX（DirectX 封装）、RawInput（输入捕获）、ExCSS（样式表解析）、FTD2XX（FTDI 驱动）、Newtonsoft（JSON 处理）、SkiaSharp（图像处理）、Svg。
+	
+Thetis 的启动界面、安装横幅及程序图标均由AI生成。</value>
   </data>
 </root>
