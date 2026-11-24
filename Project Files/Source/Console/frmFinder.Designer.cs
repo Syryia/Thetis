@@ -64,8 +64,8 @@
             this.chkKeywords.Name = "chkKeywords";
             this.chkKeywords.Size = new System.Drawing.Size(72, 17);
             this.chkKeywords.TabIndex = 3;
-            this.chkKeywords.Text = "Keywords";
-            this.toolTip1.SetToolTip(this.chkKeywords, "Treat each separated word with a space as a keyword to search on");
+            this.chkKeywords.Text = "关键词搜索";
+            this.toolTip1.SetToolTip(this.chkKeywords, "将每个以空格分隔的单词视作独立关键词进行搜索");
             this.chkKeywords.UseVisualStyleBackColor = true;
             this.chkKeywords.CheckedChanged += new System.EventHandler(this.chkKeywords_CheckedChanged);
             // 
@@ -79,9 +79,8 @@
             this.chkHighlight.Name = "chkHighlight";
             this.chkHighlight.Size = new System.Drawing.Size(105, 17);
             this.chkHighlight.TabIndex = 2;
-            this.chkHighlight.Text = "Highlight Results";
-            this.toolTip1.SetToolTip(this.chkHighlight, "Highlight part of the search that matched. It may be hidden if Full Details is no" +
-        "t enabled.");
+            this.chkHighlight.Text = "高亮搜索结果";
+            this.toolTip1.SetToolTip(this.chkHighlight, "高亮搜索命中部分。若未开启完整详情，该高亮可能不显示");
             this.chkHighlight.UseVisualStyleBackColor = true;
             this.chkHighlight.CheckedChanged += new System.EventHandler(this.chkHighlight_CheckedChanged);
             // 
@@ -93,9 +92,8 @@
             this.chkFullDetails.Name = "chkFullDetails";
             this.chkFullDetails.Size = new System.Drawing.Size(75, 17);
             this.chkFullDetails.TabIndex = 1;
-            this.chkFullDetails.Text = "Full details";
-            this.toolTip1.SetToolTip(this.chkFullDetails, "Shows full details. Text, Tooltip and Control name. Use ALT to toglle full contro" +
-        "l name for use in Finder.xml");
+            this.chkFullDetails.Text = "完整详情";
+            this.toolTip1.SetToolTip(this.chkFullDetails, "显示完整详情：文本、提示信息、控件名称。使用 Alt 键切换完整控件名");
             this.chkFullDetails.UseVisualStyleBackColor = true;
             this.chkFullDetails.CheckedChanged += new System.EventHandler(this.chkFullDetails_CheckedChanged);
             // 
@@ -108,8 +106,8 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(280, 29);
             this.txtSearch.TabIndex = 0;
-            this.txtSearch.Text = "Search";
-            this.toolTip1.SetToolTip(this.txtSearch, "Type something to search");
+            this.txtSearch.Text = "搜索";
+            this.toolTip1.SetToolTip(this.txtSearch, "输入查找内容");
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // frmFinder
@@ -128,7 +126,7 @@
             this.Name = "frmFinder";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Finder";
+            this.Text = "控件查找";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmFinder_FormClosing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmFinder_KeyDown);

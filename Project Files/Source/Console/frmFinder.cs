@@ -536,7 +536,7 @@ namespace Thetis
         public new void Show()
         {
             Common.RestoreForm(this, this.Name, true);
-            if (string.IsNullOrEmpty(txtSearch.Text)) txtSearch.Text = "Search";
+            if (string.IsNullOrEmpty(txtSearch.Text)) txtSearch.Text = "搜索";
             base.Show();
             txtSearch.Focus();
         }
